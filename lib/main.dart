@@ -11,10 +11,11 @@ class BallPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.lightBlue,
       appBar: AppBar(
+        centerTitle: true,
         title: Text('Ask Me Anything'),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: Colors.lightBlue[900],
       ),
       body: Ball(),
     );
